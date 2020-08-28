@@ -1,0 +1,94 @@
+/* body */
+body{
+  text-align: center;
+}
+/*header and footer*/
+header, footer{
+  background-color: #333533;
+  background-size: cover;
+  color: #e8eddf;
+  text-align: center;
+  font-family: 'Lexend Peta', sans-serif;
+}
+header{
+  height: auto;
+  max-width: auto;
+}
+/*map*/
+iframe{
+  margin-top: 15px;
+}
+/*navigation bar*/
+nav{
+  margin-left:20px
+}
+nav a{
+  line-height: 50px;
+  margin-right: 20px;
+}
+/*frame around pic*/
+.frame{
+  background-color: #cfdbd5;
+  height: 400px;
+  max-width: auto;
+  margin: auto;
+}
+/*portrait*/
+img{
+  margin: 60px auto;
+  border-radius: 50px;
+  border: 7px solid #242423
+  height: 400px;
+  max-width: 200px; 
+}
+h1{
+  line-height: 75px;
+  text-transform: uppercase;
+}
+h2{
+  font-size: 25px;
+}
+/*main and articles*/
+article{
+  font-family: 'Montserrat', sans-serif;
+  color: #242423;
+  max-width: 800px ;
+  margin: auto;
+}
+h3{
+  font-size: 45px
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+p{
+  font-size: 20px;
+  text-align: left;
+}.intro{
+  /*I cannot figure out why the font is not as heavy here*/
+  text-align: center;
+}
+
+/*:horizontal line*/
+hr{
+ border: 2px dotted black;
+ margin: 50px auto;
+ height: 8px;
+ Max-width: 800px;
+ background-color: #cfdbd5;
+}
+/*list*/
+ul, ol{
+  font-size: 20px;
+  text-align: justify;
+}
+ul{
+  display: inline-block; 
+  text-align: left;
+}
+li{
+  line-height: 40px; 
+}
+/*pseudo-classes for links*/
+a:link    { color: rgb(41, 41, 126);  }
+a:visited { color: rgb(41, 41, 126);   }
+a:hover   { color: green; }
